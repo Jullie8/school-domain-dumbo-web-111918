@@ -23,8 +23,8 @@ class School
         def sort 
             # a sorted list of all the students where the strings in the student arrays
             #  are sorted alphabetically.
-            @roster.each do |grade, name|
-                name.sort!
+            @roster.each do |grade, names|
+                names.sort!
             end
         end
 
